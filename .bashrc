@@ -12,7 +12,8 @@ esac
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
 
-fastfetch --logo /home/roel/Pictures/ayanamicyan.png --logo-type chafa --logo-width 26 --logo-height 13 --config /usr/share/fastfetch/presets/examples/13
+# fastfetch --logo /home/roel/Pictures/ayanamicyan.png --logo-type chafa --logo-width 26 --logo-height 13 --config /usr/share/fastfetch/presets/examples/13
+fastfetch 
 
 # append to the history file, don't overwrite it
 shopt -s histappend
