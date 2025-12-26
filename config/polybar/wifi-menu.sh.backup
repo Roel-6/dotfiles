@@ -1,0 +1,36 @@
+#!/bin/bash
+#
+# A script to select and connect  to a WI-FI network using rofi and nmcli
+#
+# Check if rofi is installed
+if ! command -v rofi &> /dev/null
+then
+  echo "Rofi is not installed."
+  exit 1
+fi
+
+# 1. Get a list of available WI-FI networks (ESSIDs)
+# We filter out duplicate names and use a network manager pattern.
+WIFIS=$(nmcli --fields  NAME,SIGNAL,SSID device wifi list | tail -n +2 | awk 'NF > 0 {if (!seen[$3]++) print $3}')
+#WIFIS=$(nmcli -t -f SSID dev wifi list | grep -v --only-matching '.\+' | sort -u)
+
+# If no WI-FI networks are found, show an error message
+if [ -z "$WIFIS" ]; then
+  rofi -e "no WI-FI networks found."
+  exit 0
+fi
+
+# 2. Use rofi to let the user select a network
+# Use the -dmenu option for simple list selection menu
+SELECTED_WIFI=$(echo -e "$WIFIS" | rofi -dmenu -i -p "WI-FI Networks")
+
+# Exit if selection is empty (user canceled)
+if [ -z "$SELECTED_WIFI" ];
+then
+  exit 0
+fi
+
+# Attempt to connect
+# nmcli dev wifi conncet (SSID)
+# the conncetion command will automatically promt for a pasword if needed
+nmcli device wifi connect "$SELECTED_WIFI"
