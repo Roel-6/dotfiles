@@ -222,6 +222,7 @@ bindsym $mod+b exec --no-startup-id ~/.config/rofi/applets/bin/brightness.sh
 bindsym $mod+m exec rofimoji
 bindsym Control+Shift+Escape exec --no-startup-id $terminal -e btop
 bindsym $mod+o exec --no-startup-id obsidian
+bindsym Shift+Print exec --no-startup-id screenrec
 
 # RESOLUTION
 exec --no-startup-id xrandr --output LVDS-1 --mode 1024x768

@@ -301,3 +301,24 @@ Dec 27 16:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Dec 27 16:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Dec 27 16:15 : player: played "from seal audio/österreich ⧸『無能』【Official Music Video】(Tokyo Ghoul OP Theme Song) [JXao5QpsYYg].mp3"
 Dec 27 16:16 : player: played "from seal audio/Color Your Night [j9Sn1nFGQQ8].mp3"
+Dec 27 17:57 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 17:57 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 17:57 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 17:58 : player: played "from seal audio/katharsis [oWzVNBemPFE].mp3"
+Dec 27 17:58 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:11 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 18:19 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:19 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 18:21 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:21 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 18:22 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 18:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 18:24 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:24 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 18:25 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 18:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 20:23 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 20:23 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 20:28 : player: played "from seal audio/laura les - Haunted {OFFICIAL MUSIC VIDEO} [879ysA4h9r4].mp3"
