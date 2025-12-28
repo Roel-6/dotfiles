@@ -7,3 +7,14 @@ lvim.transparent_window = true
 vim.opt.number = true
 lvim.colorscheme = "lunar"
 vim.opt.termguicolors = true
+
+lvim.plugins = {
+  {
+    "norcalli/nvim-colorizer.lua",
+    config = function()
+      require("colorizer").setup({
+        "*",
+      })
+    end
+  }
+}

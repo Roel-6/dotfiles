@@ -322,3 +322,66 @@ Dec 27 18:25 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Dec 27 20:23 : alsa_output: Decoder is too slow; playing silence to avoid xrun
 Dec 27 20:23 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
 Dec 27 20:28 : player: played "from seal audio/laura les - Haunted {OFFICIAL MUSIC VIDEO} [879ysA4h9r4].mp3"
+Dec 27 22:02 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:06 : player: played "Cyberpunk_ Edgerunners _ _I Really Want to Stay At Your House_ by Rosa Walton _ Music Video(MP3_160K).mp3"
+Dec 27 22:06 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:09 : player: played "from seal audio/Charli xcx - Talk talk (official lyric video) [pIs46LzZUws].mp3"
+Dec 27 22:09 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:09 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:09 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:09 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:09 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:09 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:11 : player: played "from seal audio/laura les - Haunted {OFFICIAL MUSIC VIDEO} [879ysA4h9r4].mp3"
+Dec 27 22:11 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:11 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:15 : player: played "from seal audio/Sweater Weather [Ao81ziiXHhs].mp3"
+Dec 27 22:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:15 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:16 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:20 : player: played "from seal audio/Disturbia⧸Radioactive Mashup [WJtQzBGVONY].mp3"
+Dec 27 22:20 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:21 : player: played "from seal audio/Attracted to You [9YvkFX3AML4].mp3"
+Dec 27 22:21 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Dec 27 22:25 : player: played "from seal audio/katharsis [oWzVNBemPFE].mp3"
+Dec 27 22:26 : player: played "from seal audio/Tokyo Ghoul Root A OST~ Disk2 #11 - AOZORA [F78VqIpUEGE].mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged

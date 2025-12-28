@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: stop
-current: 14
-random: 0
+current: 34
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -36,35 +36,31 @@ playlist_begin
 22:from seal audio/People In The Box - The Saints⧸Seijatachi [2VpEUya1qBI].mp3
 23:from seal audio/When The Moon's Reaching Out Stars -Reload- [GZTp2JzcOJ0].mp3
 24:from seal audio/Rakuen No Kimi [mEejHML14HQ].mp3
-25:from seal audio/Reed Wonder, Aurora Olivas - The Machine (Lyrics) [yGdeRLUiM4Y].mp3
-26:from seal audio/Rihanna - Disturbia [E1mU6h4Xdxc].mp3
-27:from seal audio/Riski Inrahim x Batak Perantau - Adu Nasib (MV) Dir. SPS Daus [daH6dn-Oqjk].mp3
-28:from seal audio/katharsis (sainou mix) [6yt6npVWHQI].mp3
-29:from seal audio/Aaryan Shah - Renegade [Official Video] [vD1bPSjFAQM].mp3
-30:from seal audio/Charli xcx - Talk talk (official lyric video) [pIs46LzZUws].mp3
-31:from seal audio/Takopi's Original Sin - Opening FULL『Happy Lucky Chappy』by ano (Lyrics) [H9JjCn5z_zE].mp3
-32:from seal audio/The Neighbourhood - A Little Death (Official Audio) [bRfMwoIizTQ].mp3
-33:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #10 - Wanderers[Full] [Best Track] [7ixQn6rhOJU].mp3
-34:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #1 - Glassy Sky [jSWNtOjQ4pM].mp3
-35:from seal audio/The Neighbourhood - Softcore (Lyrics) [QkSROKFtIhw].mp3
-36:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #11 - AOZORA [F78VqIpUEGE].mp3
-37:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #16 Father [OZZFhxzEimo].mp3
-38:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #13 - Mistake [q_qH6ASNY1Q].mp3
-39:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #18 - Alone[Raindrops] [Full Version] [5pBUb0_C0r0].mp3
-40:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #15 Orphan [dA8O2xdPu2I].mp3
-41:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #20 - Faded Light [Q2bjozo1uB8].mp3
-42:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #17 Gone [INRqngUHDGM].mp3
-43:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #22 - Colour my World [g1nkW0d0l3c].mp3
-44:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #19 Dusk [DCmx9q2xRvs].mp3
-45:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #3 - Sorrow [-irnALFEQv0].mp3
-46:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #21 - With [YWh-DOgj1oc].mp3
-47:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #5 - Plan A [AOZ1sv6m6bE].mp3
-48:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #23 - On My Own [EX7LHEg5iNA].mp3
-49:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #7 - Scapegoat [OsgMUGVeYdk].mp3
-50:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #4 - AJITO [5GP8R4qZdCY].mp3
-51:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #6 - Area [c_bKoBD_vhs].mp3
-52:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #9 - Amon [E1ReLHEOaNM].mp3
-53:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #8 - Aogiri [tTk2bXi8QfY].mp3
-54:from seal audio/パズル [Vn2AGYiLrXY].mp3
-55:from seal audio/Unravel (Acoustic Version) [yyL1h20g8Vs].mp3
+25:from seal audio/Riski Inrahim x Batak Perantau - Adu Nasib (MV) Dir. SPS Daus [daH6dn-Oqjk].mp3
+26:from seal audio/katharsis (sainou mix) [6yt6npVWHQI].mp3
+27:from seal audio/Aaryan Shah - Renegade [Official Video] [vD1bPSjFAQM].mp3
+28:from seal audio/Charli xcx - Talk talk (official lyric video) [pIs46LzZUws].mp3
+29:from seal audio/Takopi's Original Sin - Opening FULL『Happy Lucky Chappy』by ano (Lyrics) [H9JjCn5z_zE].mp3
+30:from seal audio/The Neighbourhood - A Little Death (Official Audio) [bRfMwoIizTQ].mp3
+31:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #10 - Wanderers[Full] [Best Track] [7ixQn6rhOJU].mp3
+32:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #1 - Glassy Sky [jSWNtOjQ4pM].mp3
+33:from seal audio/The Neighbourhood - Softcore (Lyrics) [QkSROKFtIhw].mp3
+34:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #11 - AOZORA [F78VqIpUEGE].mp3
+35:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #16 Father [OZZFhxzEimo].mp3
+36:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #13 - Mistake [q_qH6ASNY1Q].mp3
+37:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #18 - Alone[Raindrops] [Full Version] [5pBUb0_C0r0].mp3
+38:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #15 Orphan [dA8O2xdPu2I].mp3
+39:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #20 - Faded Light [Q2bjozo1uB8].mp3
+40:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #22 - Colour my World [g1nkW0d0l3c].mp3
+41:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #19 Dusk [DCmx9q2xRvs].mp3
+42:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #3 - Sorrow [-irnALFEQv0].mp3
+43:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #21 - With [YWh-DOgj1oc].mp3
+44:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #5 - Plan A [AOZ1sv6m6bE].mp3
+45:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #23 - On My Own [EX7LHEg5iNA].mp3
+46:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #7 - Scapegoat [OsgMUGVeYdk].mp3
+47:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #6 - Area [c_bKoBD_vhs].mp3
+48:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #9 - Amon [E1ReLHEOaNM].mp3
+49:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #8 - Aogiri [tTk2bXi8QfY].mp3
+50:from seal audio/パズル [Vn2AGYiLrXY].mp3
+51:from seal audio/Unravel (Acoustic Version) [yyL1h20g8Vs].mp3
 playlist_end
