@@ -198,7 +198,7 @@ bindsym $mod+r mode "resize"
 
 # Color customization
 # Class                   Border    bg     text     ind   c_border
-client.focused            #0abdc6 #091833 #0abdc6 #711c91 #0abdc6  
+client.focused            #77f6fc #091833 #0abdc6 #711c91 #0abdc6  
 client.focused_inactive   #133e7c #091833 #0abdc6 #133e7c #133e7c 
 client.unfocused          #133e7c #091833 #0abdc6 #133e7c #133e7c 
 client.urgent             #711c91 #091833 #0abdc6 #711c91 #711c91 
