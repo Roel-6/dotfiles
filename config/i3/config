@@ -15,6 +15,7 @@ font pango:monospace 8
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom -b
 exec --no-startup-id xbanish
+ exec --no-startup-id xgamma -gamma 0.8
 # exec --no-startup-id $terminal
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
