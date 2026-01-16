@@ -136,8 +136,15 @@ alias i3config='lvim ~/cp-dotfiles/config/i3/config'
 # alias for lvim lol
 export PATH="$HOME/.local/bin/lvim:$PATH"
 
+# Alias for downloading music using yt-dlp
+# alias ytmp3='yt-dlp -f251 -x --embed-thumbnail --add-metadata --ppa "ThumbnailsConvertor:-vf crop='ih:ih'"'
+
 # alias for mov-cli
 alias mov='source ~/mov-cli-env/bin/activate;mov-cli "$@"'
+
+# changing the default text editor to lvim
+export EDITOR="lvim"
+export VISUAL="lvim"
 
 export PATH="$HOME/zig-compiler/zig-x86_64-linux-0.15.2:$PATH"
 export PATH="$HOME/rofi/files/scripts:$PATH"

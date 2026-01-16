@@ -2,80 +2,40 @@ sw_volume: 100
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: stop
-current: 34
+current: 0
 random: 1
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Oasis - Don’t Look Back In Anger [cmpRLQZkTb8].mp3
-1:caramella girls-caramelldansen (sped up_Nightcore)(MP3_160K).mp3
-2:Nightcore _ Bunnyparty (Häschenparty)『lyric video』(MP3_160K).mp3
-3:Cyberpunk_ Edgerunners _ _I Really Want to Stay At Your House_ by Rosa Walton _ Music Video(MP3_160K).mp3
-4:from seal audio/Attracted to You [9YvkFX3AML4].mp3
-5:from seal audio/BJ LIPS- Love potion (Lyrics) [9j5sIO8Su8Y].mp3
-6:from seal audio/Disturbia⧸Radioactive Mashup [WJtQzBGVONY].mp3
-7:from seal audio/Drake - Not You Too (Audio) ft. Chris Brown [ZX_mvoY_Hg0].mp3
-8:from seal audio/katharsis [oWzVNBemPFE].mp3
-9:from seal audio/EsDeeKid & Rico Ace - Cali Man [tZ9kau-ZOE8].mp3
-10:from seal audio/EsDeeKid, Fakemink & Rico Ace - LV Sandals [K6QjQeKfmUs].mp3
-11:from seal audio/FAHHH Sound effect from TikTok [q_i8WmC29tQ].mp3
-12:from seal audio/Girl You Loud [HjwNOOCvXF0].mp3
-13:from seal audio/Glassy Sky [O4mR83VkMas].mp3
-14:from seal audio/Sweater Weather [Ao81ziiXHhs].mp3
-15:from seal audio/ira4ma - Magazine [URnyZI3eqyo].mp3
-16:from seal audio/Jhené Aiko - 2 seconds (Audio) [GhHkOJl6UMw].mp3
-17:from seal audio/laura les - Haunted {OFFICIAL MUSIC VIDEO} [879ysA4h9r4].mp3
-18:from seal audio/Let Me Be With You - Round Table feat. Nino [0UBgYLjTERs].mp3
-19:from seal audio/Lil Loaded - Gang Unit (Official Video) [DBhfYWOWR_k].mp3
-20:from seal audio/low honor sound effect [JJfsfSXtwWk].mp3
-21:from seal audio/The Weeknd - Is There Someone Else？ (Audio) [i4ZuseKFBF0].mp3
-22:from seal audio/RATHER LIE (with The Weeknd).mp3
-23:from seal audio/New Jeans Jersey Remix SLOWED - (Jiandro x Dxrkaii) [Acj_kh5IH-E].mp3
-24:from seal audio/Odetari - Heavy Love (Official Audio) [xQAuZnie2G0].mp3
-25:from seal audio/österreich ⧸『無能』【Official Music Video】(Tokyo Ghoul OP Theme Song) [JXao5QpsYYg].mp3
-26:from seal audio/People In The Box - The Saints⧸Seijatachi [2VpEUya1qBI].mp3
-27:from seal audio/Color Your Night [j9Sn1nFGQQ8].mp3
-28:from seal audio/Want To Be Close -Reload- [jKYB5P5g2Uc].mp3
-29:from seal audio/When The Moon's Reaching Out Stars -Reload- [GZTp2JzcOJ0].mp3
-30:from seal audio/Rakuen No Kimi [mEejHML14HQ].mp3
-31:from seal audio/Reed Wonder, Aurora Olivas - The Machine (Lyrics) [yGdeRLUiM4Y].mp3
-32:from seal audio/Rihanna - Disturbia [E1mU6h4Xdxc].mp3
-33:from seal audio/Riski Inrahim x Batak Perantau - Adu Nasib (MV) Dir. SPS Daus [daH6dn-Oqjk].mp3
-34:from seal audio/katharsis (sainou mix) [6yt6npVWHQI].mp3
-35:from seal audio/Takopi's Original Sin - Opening FULL『Happy Lucky Chappy』by ano (Lyrics) [H9JjCn5z_zE].mp3
-36:from seal audio/Charli xcx - Talk talk (official lyric video) [pIs46LzZUws].mp3
-37:from seal audio/Aaryan Shah - Renegade [Official Video] [vD1bPSjFAQM].mp3
-38:from seal audio/The Neighbourhood - A Little Death (Official Audio) [bRfMwoIizTQ].mp3
-39:from seal audio/The Neighbourhood - Softcore (Lyrics) [QkSROKFtIhw].mp3
-40:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #1 - Glassy Sky [jSWNtOjQ4pM].mp3
-41:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #10 - Wanderers[Full] [Best Track] [7ixQn6rhOJU].mp3
-42:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #11 - AOZORA [F78VqIpUEGE].mp3
-43:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #12 - FUKUROU [HmIa4ScvqZo].mp3
-44:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #13 - Mistake [q_qH6ASNY1Q].mp3
-45:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #14 - Plan B [XfhKqdJ4-xE].mp3
-46:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #15 Orphan [dA8O2xdPu2I].mp3
-47:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #16 Father [OZZFhxzEimo].mp3
-48:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #17 Gone [INRqngUHDGM].mp3
-49:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #18 - Alone[Raindrops] [Full Version] [5pBUb0_C0r0].mp3
-50:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #19 Dusk [DCmx9q2xRvs].mp3
-51:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #2 - Dawn [U8JWiyY6NUU].mp3
-52:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #20 - Faded Light [Q2bjozo1uB8].mp3
-53:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #21 - With [YWh-DOgj1oc].mp3
-54:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #22 - Colour my World [g1nkW0d0l3c].mp3
-55:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #23 - On My Own [EX7LHEg5iNA].mp3
-56:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #3 - Sorrow [-irnALFEQv0].mp3
-57:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #4 - AJITO [5GP8R4qZdCY].mp3
-58:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #5 - Plan A [AOZ1sv6m6bE].mp3
-59:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #6 - Area [c_bKoBD_vhs].mp3
-60:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #7 - Scapegoat [OsgMUGVeYdk].mp3
-61:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #8 - Aogiri [tTk2bXi8QfY].mp3
-62:from seal audio/Tokyo Ghoul Root A OST~ Disk2 #9 - Amon [E1ReLHEOaNM].mp3
-63:from seal audio/Unravel (Acoustic Version) [yyL1h20g8Vs].mp3
-64:from seal audio/パズル [Vn2AGYiLrXY].mp3
-65:from seal audio/X-TALI (SLOWED) [QO4yRGnUyPY].mp3
-66:I_m So Lucky Lucky - Nightcore(MP3_160K).mp3
+0:I Want Things to Be Beautiful.opus
+1:Oasis - Don’t Look Back In Anger [cmpRLQZkTb8].mp3
+2:entry [WoiETnLCMyg].opus
+3:caramella girls-caramelldansen (sped up_Nightcore)(MP3_160K).mp3
+4:Nightcore _ Bunnyparty (Häschenparty)『lyric video』(MP3_160K).mp3
+5:I_m So Lucky Lucky - Nightcore(MP3_160K).mp3
+6:Cyberpunk_ Edgerunners _ _I Really Want to Stay At Your House_ by Rosa Walton _ Music Video(MP3_160K).mp3
+7:きゅびずむ.opus
+8:きゅびびびびずむ.opus
+9:fwaeh/SnapTube Audio/9AM in Calabasas INSTRUMENTAL(prod by Adrian)(MP3_160K).mp3
+10:fwaeh/SnapTube Audio/[Free] Tevomxntana x Adrian Type Beat - _Midnight Club_ (Prod. ADTurnUp)(MP3_160K).mp3
+11:fwaeh/SnapTube Audio/anders - Notice (Interlude) [Audio](MP3_160K).mp3
+12:fwaeh/SnapTube Audio/Autumn_ - One Way (Official Audio)(MP3_160K).mp3
+13:fwaeh/SnapTube Audio/Drake - Rich Baby Daddy (Audio) ft. Sexyy Red_ SZA(MP3_160K).mp3
+14:fwaeh/SnapTube Audio/Tory Lanez - Colt 95(MP3_160K).mp3
+15:fwaeh/SnapTube Audio/listen_(MP3_160K).mp3
+16:fwaeh/SnapTube Audio/Playboi Carti - Skeleton (Instrumental)(MP3_160K).mp3
+17:fwaeh/SnapTube Audio/Rich Amiri - One Call (Official Audio)(MP3_160K).mp3
+18:fwaeh/SnapTube Audio/Usher - Hey Daddy ( Daddy_s Home)- Instrumental(MP3_160K).mp3
+19:fwaeh/SnapTube Audio/Jaydes - Entry four (VIDEO   Lyrics)(MP3_160K).mp3
+20:fwaeh/SnapTube Audio/Barefoot in the Park (Perfect Loop Extended) - Neon Genesis Evangelion OST(MP3_160K).mp3
+21:fwaeh/SnapTube Audio/SZA - Saturn(MP3_160K).mp3
+22:fwaeh/SnapTube Audio/Playboi Carti - bando (prod.ta2cute x yugen)(MP3_160K).mp3
+23:fwaeh/SnapTube Audio/tevomxntana - Heaven Sent (Prod.Sønata) _OFFICIAL AUDIO_(MP3_160K).mp3
+24:fwaeh/SnapTube Audio/1ofakind(MP3_160K).mp3
+25:fwaeh/SnapTube Audio/fragments(MP3_160K).mp3
+26:fwaeh/SnapTube Audio/stay the night pluggnb remix (sped up)(MP3_160K).mp3
 playlist_end
