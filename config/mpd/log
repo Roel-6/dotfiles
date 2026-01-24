@@ -1726,3 +1726,111 @@ Jan 15 21:49 : player: played "I Want Things to Be Beautiful.opus"
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jan 17 09:52 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 17 09:53 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 17 09:53 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 17 09:57 : player: played "Oasis - Don’t Look Back In Anger [cmpRLQZkTb8].mp3"
+Jan 17 09:58 : player: played "fwaeh/SnapTube Audio/9AM in Calabasas INSTRUMENTAL(prod by Adrian)(MP3_160K).mp3"
+Jan 20 05:42 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 20 05:42 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 20 05:44 : player: played "I Want Things to Be Beautiful.opus"
+Jan 20 05:44 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 20 05:44 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 20 05:44 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 20 05:44 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 20 05:49 : player: played "Oasis - Don’t Look Back In Anger [cmpRLQZkTb8].mp3"
+Jan 20 05:49 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 20 05:51 : player: played "きゅびずむ.opus"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Jan 22 08:06 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 22 21:13 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 22 21:15 : player: played "I Want Things to Be Beautiful.opus"
+Jan 22 21:17 : player: played "entry [WoiETnLCMyg].opus"
+Jan 22 21:17 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 22 21:19 : player: played "fwaeh/SnapTube Audio/listen_(MP3_160K).mp3"
+Jan 22 21:21 : player: played "caramella girls-caramelldansen (sped up_Nightcore)(MP3_160K).mp3"
+Jan 22 21:22 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 22 21:22 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 22 21:24 : player: played "きゅびずむ.opus"
+Jan 22 21:24 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 22 21:26 : player: played "fwaeh/SnapTube Audio/1ofakind(MP3_160K).mp3"
+Jan 22 21:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 22 21:28 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 22 21:28 : player: played "Oasis - Don’t Look Back In Anger [cmpRLQZkTb8].mp3"
+Jan 24 22:38 : mixer: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 24 22:38 : exception: Failed to decode https://lofimusic.app/lofigirl; avformat_open_input() failed: Invalid data found when processing input
+Jan 24 22:38 : player: played "https://lofimusic.app/lofigirl"
+Jan 24 22:39 : exception: Failed to decode https://lofimusic.app/lofigirl; avformat_open_input() failed: Invalid data found when processing input
+Jan 24 22:39 : player: played "https://lofimusic.app/lofigirl"
+Jan 24 22:39 : exception: Failed to decode https://lofimusic.app/lofigirl; avformat_open_input() failed: Invalid data found when processing input
+Jan 24 22:39 : player: played "https://lofimusic.app/lofigirl"
+Jan 24 22:39 : exception: Failed to decode https://lofimusic.app/lofigirl; avformat_open_input() failed: Invalid data found when processing input
+Jan 24 22:39 : player: played "https://lofimusic.app/lofigirl"
+Jan 24 22:44 : exception: Failed to decode https://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:44 : player: played "https://icecast.lofigirl.com/lofigirl"
+Jan 24 22:44 : exception: Failed to decode https://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:44 : player: played "https://icecast.lofigirl.com/lofigirl"
+Jan 24 22:44 : exception: Failed to decode https://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:44 : player: played "https://icecast.lofigirl.com/lofigirl"
+Jan 24 22:44 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 24 22:45 : player: played "http://ice1.somafm.com/groovesalad-128-mp3"
+Jan 24 22:45 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:45 : player: played "http://icecast.lofigirl.com/lofigirl"
+Jan 24 22:45 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 24 22:46 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:46 : player: played "http://icecast.lofigirl.com/lofigirl"
+Jan 24 22:46 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:46 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:46 : player: played "http://icecast.lofigirl.com/lofigirl"
+Jan 24 22:46 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:46 : player: played "http://icecast.lofigirl.com/lofigirl"
+Jan 24 22:46 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:46 : player: played "http://icecast.lofigirl.com/lofigirl"
+Jan 24 22:46 : exception: Failed to decode http://icecast.lofigirl.com/lofigirl; CURL failed: Could not resolve host: icecast.lofigirl.com
+Jan 24 22:46 : player: played "http://icecast.lofigirl.com/lofigirl"
+Jan 24 22:47 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 24 22:47 : player: played "http://ice1.somafm.com/groovesalad-128-mp3"
+Jan 24 22:47 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 24 23:25 : player: played "http://ice1.somafm.com/groovesalad-128-mp3"
+Jan 24 23:26 : exception: Failed to decode http://icepool.silvacast.com/LOFI.mp3; got HTTP status 404
+Jan 24 23:26 : player: played "http://icepool.silvacast.com/LOFI.mp3"
+Jan 24 23:26 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 24 23:26 : exception: Failed to decode http://icepool.silvacast.com/LOFI.mp3; got HTTP status 404
+Jan 24 23:26 : player: played "http://icepool.silvacast.com/LOFI.mp3"
+Jan 24 23:26 : exception: Failed to decode http://icepool.silvacast.com/LOFI.mp3; got HTTP status 404
+Jan 24 23:26 : exception: Failed to decode http://icepool.silvacast.com/LOFI.mp3; got HTTP status 404
+Jan 24 23:26 : player: played "http://icepool.silvacast.com/LOFI.mp3"
+Jan 24 23:26 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:07 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 25 00:07 : player: played "http://ice1.somafm.com/groovesalad-128-mp3"
+Jan 25 00:08 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:24 : player: played "http://ice1.somafm.com/groovesalad-128-mp3"
+Jan 25 00:25 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:27 : player: played "きゅびずむ.opus"
+Jan 25 00:30 : player: played "きゅびびびびずむ.opus"
+Jan 25 00:30 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 25 00:30 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:33 : player: played "caramella girls-caramelldansen (sped up_Nightcore)(MP3_160K).mp3"
+Jan 25 00:33 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:35 : player: played "entry [WoiETnLCMyg].opus"
+Jan 25 00:35 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:38 : player: played "I_m So Lucky Lucky - Nightcore(MP3_160K).mp3"
+Jan 25 00:38 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:42 : player: played "きゅびびびびずむ.opus"
+Jan 25 00:42 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:45 : player: played "I_m So Lucky Lucky - Nightcore(MP3_160K).mp3"
+Jan 25 00:47 : player: played "caramella girls-caramelldansen (sped up_Nightcore)(MP3_160K).mp3"
+Jan 25 00:47 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Jan 25 00:47 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:50 : player: played "entry [WoiETnLCMyg].opus"
+Jan 25 00:52 : player: played "きゅびずむ.opus"
+Jan 25 00:55 : player: played "entry [WoiETnLCMyg].opus"
+Jan 25 00:55 : output: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Jan 25 00:56 : player: played "I_m So Lucky Lucky - Nightcore(MP3_160K).mp3"

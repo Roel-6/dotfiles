@@ -59,7 +59,7 @@ bindsym $mod+q kill
 # bindcode $mod+40 exec --no-startup-id ~/.config/rofi/scripts/launcher_t1 
 
 # Laternative rofi
-bindcode $mod+40 exec --no-startup-id rofi -show drun -drun-use-desktop-cache 
+bindcode $mod+40 exec --no-startup-id rofi -show drun  
 
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
@@ -230,6 +230,9 @@ for_window [class="^.*"] border pixel 1
 
 # TOGGLE PICOM
 bindsym $mod+p exec --no-startup-id ~/.config/i3/scripts/picomtoggle.sh
+
+exec --always dbus-update-activation-environment --systemd DISPLAY XAUTHORITY
+exec --always /usr/libexec/xdg-desktop-portal-gtk &
 
 # GAPS
 gaps inner 5px
