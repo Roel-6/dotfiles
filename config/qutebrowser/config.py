@@ -152,6 +152,25 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
+## --- GitHub Fixes & Optimization ---
+
+# 1. Ensure JavaScript is enabled (required for modern GitHub UI)
+config.set('content.javascript.enabled', True, 'github.com')
+config.set('content.blocking.enabled', False, 'github.com')
+
+# 2. Spoof a standard User Agent to prevent GitHub from serving the mobile/basic site
+# This tells GitHub you are using a standard Chrome browser on Linux
+
+# 4. Force Github to use the full site if it's still being stubborn
+c.content.headers.user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0"
+
+
+c.qt.args = [
+    'enable-features="dns-over-https<DoHTrial"',
+    'force-fieldtrials="DoHTrial/Group1"',
+    'force-fieldtrial-params="DoHTrial.Group1:server/https%3A%2F%2F1.1.1.1%2Fdns-query/method/POST"'
+]
+
 # Position of the tab bar.
 # Type: Position
 # Valid values:
@@ -242,6 +261,7 @@ palette = {
     "color15": "#d7d7d5"
         }
 
+#c colors for the status bar on the bottom
 c.colors.statusbar.normal.bg = palette["backgroundalt"]
 c.colors.statusbar.command.bg = palette["backgroundalt"]
 c.colors.statusbar.command.fg = palette["foreground"]
@@ -251,6 +271,7 @@ c.colors.statusbar.url.fg = palette["color2"]
 c.colors.statusbar.url.success.https.fg = palette["color2"]
 c.colors.statusbar.url.hover.fg = palette["color2"]
 
+# colors for the tabs bar
 c.colors.tabs.even.bg = palette["color0"] # transparent tabs!!
 c.colors.tabs.odd.bg = palette["color0"]
 c.colors.tabs.bar.bg = palette["color0"]
@@ -260,3 +281,8 @@ c.colors.tabs.selected.even.bg = palette["foreground"]
 c.colors.tabs.selected.odd.bg = palette["foreground"]
 c.colors.tabs.selected.even.fg = palette["background"]
 c.colors.tabs.selected.odd.fg = palette["background"]
+
+# colors for tab indicator
+c.colors.tabs.indicator.start = palette["color2"]
+c.colors.tabs.indicator.stop = palette["color5"]
+c.colors.tabs.indicator.error = palette["color1"]

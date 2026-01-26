@@ -120,16 +120,6 @@ if ! shopt -oq posix; then
 fi
 . "$HOME/.cargo/env"
 
-# Aliases for games
-
-alias aottg='(cd ~/MyGames/Aottg2Linux && ./launch.sh)'
-alias postal1='flatpak run com.heroicgameslauncher.hgl --no-gui "heroic://launch/1207658754"'
-alias higu1='flatpak run com.heroicgameslauncher.hgl --no-gui "heroic://launch/1532671653"'
-alias wolf='flatpak run com.heroicgameslauncher.hgl --no-gui "heroic://launch/1126166849"'
-alias brawl='flatpak run com.heroicgameslauncher.hgl --no-gui "heroic://launch/c051e0b1433d4308baa920c08ba1a8eb"'
-alias polytrack='(cd ~/MyGames/Poly-Track && ./PolyTrack)'
-alias fnf='(cd ~/MyGames/funkin-linux-64bit && ./Funkin)'
-
 # I3config
 alias i3config='lvim ~/cp-dotfiles/config/i3/config'
 

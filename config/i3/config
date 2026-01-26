@@ -1,7 +1,8 @@
 set $terminal st
 set $text_editor lvim
 set $file_manager thunar
-set $browser app.zen_browser.zen
+set $browser ~/qute-py/.venv/bin/python3 -m qutebrowser
+# set $browser app.zen_browser.zen
 # set $browser /usr/bin/google-chrome-stable
 set $mod Mod4
 
@@ -205,14 +206,14 @@ client.urgent             #711c91 #091833 #0abdc6 #711c91 #711c91
 client.placeholder        #ea00d9 #091833 #0abdc6 #ea00d9 #ea00d9 
 
 # KEYBINDS
-bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%Y%m%d-%H%M%S.png
+bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%Y%m%d-%H%M%S.png && notify-send -t 2000 "saved screenshot"
 bindsym $mod+b exec --no-startup-id ~/.config/rofi/applets/bin/brightness.sh
 bindsym $mod+m exec rofimoji
 bindsym Control+Shift+Escape exec --no-startup-id $terminal -e btop
 bindsym $mod+o exec --no-startup-id obsidian
 bindsym Shift+Print exec --no-startup-id screenrec
-bindsym $mod+z exec flatpak run $browser
-# bindsym $mod+z exec $browser
+# bindsym $mod+z exec flatpak run $browser
+bindsym $mod+z exec $browser
 
 
 # RESOLUTION
