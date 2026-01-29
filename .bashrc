@@ -126,8 +126,8 @@ alias i3config='lvim ~/cp-dotfiles/config/i3/config'
 # alias for lvim lol
 export PATH="$HOME/.local/bin/lvim:$PATH"
 
-# Alias for downloading music using yt-dlp
-# alias ytmp3='yt-dlp -f251 -x --embed-thumbnail --add-metadata --ppa "ThumbnailsConvertor:-vf crop='ih:ih'"'
+# alias for qutebrowser
+alias qutebrowser='~/qute-py/.venv/bin/python3 -m qutebrowser'
 
 # alias for mov-cli
 alias mov='source ~/mov-cli-env/bin/activate;mov-cli "$@"'

@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           Material GitHub
+@namespace      github.com/openstyles/stylus
+@version        1.0.1
+@description    A Material GitHub in a material world (W.I.P.)
+@author         Enokai
+
+@preprocessor default
+@advanced color color-primary            "Primary color" #71b9db
+
+==/UserStyle== */
+@-moz-document domain("github.com") {
+  :root {
+    --color-primary-200: color-mix(in srgb, var(--color-primary) 80%, #f0f0f0 100%);
+    --color-primary-400: color-mix(in srgb, var(--color-primary) 60%, #f0f0f0 40%);
+    --color-primary-500: color-mix(in srgb, var(--color-primary) 100%, #0a0a0a 10%);
+    --color-primary-550: color-mix(in srgb, var(--color-primary) 100%, #000 50%);
+    --color-primary-600: color-mix(in srgb, var(--color-primary) 90%, #000 100%);
+    --color-primary-650: color-mix(in srgb, var(--color-primary) 40%, #0a0a0a 100%);
+    --color-primary-700: color-mix(in srgb, var(--color-primary) 28%, #0a0a0a 100%);
+    --color-primary-750: color-mix(in srgb, var(--color-primary) 22%, #0a0a0a 100%);
+    --color-primary-800: color-mix(in srgb, var(--color-primary) 18%, #0a0a0a 100%);
+    --color-primary-850: color-mix(in srgb, var(--color-primary) 14%, #0a0a0a 100%);

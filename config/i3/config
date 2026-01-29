@@ -1,7 +1,8 @@
 set $terminal st
 set $text_editor lvim
 set $file_manager thunar
-set $browser ~/qute-py/.venv/bin/python3 -m qutebrowser
+set $browser min
+# set $browser ~/qute-py/.venv/bin/python3 -m qutebrowser
 # set $browser app.zen_browser.zen
 # set $browser /usr/bin/google-chrome-stable
 set $mod Mod4
@@ -16,7 +17,7 @@ font pango:monospace 8
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom -b
 exec --no-startup-id xbanish
- exec --no-startup-id xgamma -gamma 0.8
+exec --no-startup-id xgamma -gamma 0.8
 # exec --no-startup-id $terminal
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
@@ -206,7 +207,7 @@ client.urgent             #711c91 #091833 #0abdc6 #711c91 #711c91
 client.placeholder        #ea00d9 #091833 #0abdc6 #ea00d9 #ea00d9 
 
 # KEYBINDS
-bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%Y%m%d-%H%M%S.png && notify-send -t 2000 "saved screenshot"
+bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%Y%m%d-%H%M%S.png && touch ~/Pictures && notify-send -t 2000 "saved screenshot"
 bindsym $mod+b exec --no-startup-id ~/.config/rofi/applets/bin/brightness.sh
 bindsym $mod+m exec rofimoji
 bindsym Control+Shift+Escape exec --no-startup-id $terminal -e btop
