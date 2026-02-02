@@ -88,7 +88,7 @@ case ${chosen} in
         ;;
     $lock)
 		if [[ -x '/usr/local/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
+			betterlockscreen -l 
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi

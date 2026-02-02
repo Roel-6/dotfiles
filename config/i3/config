@@ -218,8 +218,8 @@ bindsym $mod+z exec $browser
 
 
 # RESOLUTION
-exec --no-startup-id xrandr --output LVDS-1 --mode 1024x768
-# exec --no-startup-id xrandr --output LVDS-1 --mode 1366x768
+# exec --no-startup-id xrandr --output LVDS-1 --mode 1024x768
+exec --no-startup-id xrandr --output LVDS-1 --mode 1366x768
 
 # WALLPAPER
 exec --no-startup-id feh --bg-fill /home/roel/Pictures/wallpaper/cyberpunk/lucy1.jpg
@@ -240,3 +240,5 @@ exec --always /usr/libexec/xdg-desktop-portal-gtk &
 gaps inner 5px
 gaps outer 10px
 gaps top 0px
+gaps left 30px
+gaps right 10px
