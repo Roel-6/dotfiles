@@ -3,8 +3,8 @@ set $text_editor lvim
 set $file_manager thunar
 # set $browser min
 # set $browser ~/qute-py/.venv/bin/python3 -m qutebrowser
-# set $browser app.zen_browser.zen
-set $browser /usr/bin/google-chrome-stable
+set $browser /home/roel/zen/zen
+# set $browser /usr/bin/google-chrome-stable
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -17,7 +17,8 @@ font pango:monospace 8
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom -b
 exec --no-startup-id xbanish
-exec --no-startup-id xgamma -gamma 0.8
+# exec --no-startup-id xgamma -rgamma 0.85 -ggamma 1.0 -bgamma 0.85
+exec --no-startup-id xrandr --output LVDS-1 --gamma 0.9:1.0:0.9 
 # exec --no-startup-id $terminal
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
@@ -61,7 +62,7 @@ bindsym $mod+q kill
 # bindcode $mod+40 exec --no-startup-id ~/.config/rofi/scripts/launcher_t1 
 
 # Laternative rofi
-bindcode $mod+40 exec --no-startup-id rofi -show drun  
+bindcode $mod+40 exec --no-startup-id rofi -show drun -drun-use-desktop-cache -drun-reload-desktop-cache  
 
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
@@ -216,7 +217,6 @@ bindsym Shift+Print exec --no-startup-id screenrec
 # bindsym $mod+z exec flatpak run $browser
 bindsym $mod+z exec $browser
 
-
 # RESOLUTION
 # exec --no-startup-id xrandr --output LVDS-1 --mode 1024x768
 exec --no-startup-id xrandr --output LVDS-1 --mode 1366x768
@@ -239,6 +239,6 @@ exec --always /usr/libexec/xdg-desktop-portal-gtk &
 # GAPS
 gaps inner 5px
 gaps outer 10px
-gaps top 0px
-gaps left 30px
-gaps right 10px
+# gaps top 0px
+# gaps left 30px
+# gaps right 10px

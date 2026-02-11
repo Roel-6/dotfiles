@@ -7,6 +7,10 @@ lvim.transparent_window = true
 vim.opt.number = true
 lvim.colorscheme = "lunar"
 vim.opt.termguicolors = true
+vim.opt.shiftwidth = 4 -- Size of an indent
+vim.opt.tabstop = 4    -- Number of spaces tabs count for
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true -- Use spaces instead of tabs
 
 lvim.plugins = {
   {
