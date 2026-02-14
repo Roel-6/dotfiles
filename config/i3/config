@@ -199,13 +199,22 @@ bindsym $mod+r mode "resize"
 
 ## MY STUFF
 
-# Color customization
-# Class                   Border    bg     text     ind   c_border
-client.focused            #77f6fc #091833 #0abdc6 #0abdc6 #0abdc6  
-client.focused_inactive   #133e7c #091833 #0abdc6 #133e7c #133e7c 
-client.unfocused          #133e7c #091833 #0abdc6 #133e7c #133e7c 
-client.urgent             #711c91 #091833 #0abdc6 #711c91 #711c91 
-client.placeholder        #ea00d9 #091833 #0abdc6 #ea00d9 #ea00d9 
+# Set colors from Xresources
+# Change 'color7' and 'color2' to whatever colors you want i3 to use 
+# from the generated scheme.
+# NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
+# it fails to get colors from Xresources.
+set_from_resource $fg i3wm.color5 #f0f0f0
+set_from_resource $bg i3wm.color0 #f0f0f0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $fg     $bg     $fg  $fg       $fg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg     $bg     $fg  $bg       $bg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+
+client.background       $bg
 
 # KEYBINDS
 bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%Y%m%d-%H%M%S.png && touch ~/Pictures && notify-send -t 2000 "saved screenshot"
@@ -219,20 +228,27 @@ bindsym $mod+z exec $browser
 # exec --no-startup-id xrandr --output LVDS-1 --mode 1024x768
 exec --no-startup-id xrandr --output LVDS-1 --mode 1366x768
 
-# WALLPAPER
-exec --no-startup-id feh --bg-fill /home/roel/Pictures/wallpaper/cyberpunk/lucy1.jpg
+# Set wallpaper on boot
+# exec --no-startup-id feh --bg-fill /home/roel/Pictures/wallpaper/cyberpunk/lucy1.jpg
+exec_always --no-startup-id wal -R
 
 # POLYBAR
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # NO TITLE BAR
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 1.5
 
 # TOGGLE PICOM
 bindsym $mod+p exec --no-startup-id ~/.config/i3/scripts/picomtoggle.sh
 
+# Wallpaper picker
+bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/scripts/wallpapermenu
+
 exec --always dbus-update-activation-environment --systemd DISPLAY XAUTHORITY
 exec --always /usr/libexec/xdg-desktop-portal-gtk &
+
+# automatically opens nsxiv in floating mode
+for_window [class="nsxiv"] floating enable
 
 # GAPS
 gaps inner 5px

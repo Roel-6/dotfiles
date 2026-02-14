@@ -1,0 +1,12 @@
+@define-color bg_color {background};
+@define-color fg_color {foreground};
+@define-color accent_color {color4};
+
+* {
+    background-color: @bg_color;
+    color: @fg_color;
+}
+
+button {
+    background-color: @accent_color;
+}

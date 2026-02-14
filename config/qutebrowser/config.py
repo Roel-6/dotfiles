@@ -2,6 +2,17 @@
 #   qute://help/configuring.html
 #   qute://help/settings.html
 
+import pywalQute.draw
+
+config.load_autoconfig()
+
+pywalQute.draw.color(c, {
+    'spacing': {
+        'vertical': 6,
+        'horizontal': 8
+    }
+})
+
 # Specifically set a Chrome user agent for YouTube only
 with config.pattern('https://www.youtube.com/*') as p:
     p.content.headers.user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
@@ -21,7 +32,7 @@ config.set('content.proxy', 'system')
 config.set('content.dns_prefetch', True)
 
 # enabling darkmode
-config.set("colors.webpage.darkmode.enabled", False)
+config.set("colors.webpage.darkmode.enabled", True)
 
 # When to show a changelog after qutebrowser was upgraded.
 # Type: String
@@ -197,7 +208,7 @@ c.tabs.min_width = -1
 # not apply properly if max_width is smaller than the minimum size of
 # tab contents, or smaller than tabs.min_width.
 # Type: Int
-c.tabs.max_width = 2
+c.tabs.max_width = 1
 
 # Page to open if :open -t/-b/-w is used without URL. Use `about:blank`
 # for a blank page.
@@ -242,27 +253,27 @@ c.url.start_pages = 'https://www.google.com'
 # Type: Bool
 c.window.transparent = True
 
-palette = {
-    "background": "#000b1e",
-    "backgroundalt": "#B3000b1e",
-    "foreground": "#0abdc6",
-    "color0": "#B3123e7c", 
-    "color1": "#ff0000",
-    "color2": "#ea00d9",
-    "color3": "#f57800",
-    "color4": "#123e7c",
-    "color5": "#711c91",
-    "color6": "#0abdc6",
-    "color7": "#d7d7d5",
-    "color8": "#1c61c2",
-    "color9": "#ff0000",
-    "color10": "#d300c4",
-    "color11": "#f57800",
-    "color12": "#00ff00",
-    "color13": "#711c91",
-    "color14": "#0abdc6",
-    "color15": "#d7d7d5"
-        }
+# palette = {
+#     "background": "#000b1e",
+#     "backgroundalt": "#B3000b1e",
+#     "foreground": "#0abdc6",
+#     "color0": "#B3123e7c", 
+#     "color1": "#ff0000",
+#     "color2": "#ea00d9",
+#     "color3": "#f57800",
+#     "color4": "#123e7c",
+#     "color5": "#711c91",
+#     "color6": "#0abdc6",
+#     "color7": "#d7d7d5",
+#     "color8": "#1c61c2",
+#     "color9": "#ff0000",
+#     "color10": "#d300c4",
+#     "color11": "#f57800",
+#     "color12": "#00ff00",
+#     "color13": "#711c91",
+#     "color14": "#0abdc6",
+#     "color15": "#d7d7d5"
+#         }
 
 #c colors for the status bar on the bottom
 c.colors.statusbar.normal.bg = palette["backgroundalt"]

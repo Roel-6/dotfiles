@@ -1,0 +1,10 @@
+/* Pywal Color Bridge for adi1090x themes */
+
+* {
+    background:     {background};
+    background-alt: {background};
+    foreground:     {foreground};
+    selected:       {color1};     
+    active:         {color2};
+    urgent:         {color3};
+}

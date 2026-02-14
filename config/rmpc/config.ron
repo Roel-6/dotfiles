@@ -5,7 +5,7 @@
     address: "127.0.0.1:6600",
     password: None,
     // theme: Some("Default"),
-    theme: Some("Nord"),
+    theme: Some("Default"),
     // theme: Some("Catpuccin_Macchiato"),
     cache_dir: None,
     on_song_change: None,
