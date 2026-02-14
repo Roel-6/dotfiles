@@ -205,7 +205,7 @@ c.tabs.max_width = 2
 c.url.default_page = 'https://www.google.com/'
 
 # custom themes css
-c.content.user_stylesheets = ["~/.config/qutebrowser/styles/youtube-tweaks.css"]
+# c.content.user_stylesheets = ["~/.config/qutebrowser/styles/youtube-tweaks.css"]
 c.content.user_stylesheets = ["~/.config/qutebrowser/styles/github-materia.css"]
 
 # Search engines which can be used via the address bar.  Maps a search

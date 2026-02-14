@@ -1,9 +1,8 @@
 set $terminal st
 set $text_editor lvim
 set $file_manager thunar
-# set $browser min
-# set $browser ~/qute-py/.venv/bin/python3 -m qutebrowser
-set $browser /home/roel/zen/zen
+# set $browser /home/roel/zen/zen
+set $browser ~/qute-py/.venv/bin/python3 -m qutebrowser
 # set $browser /usr/bin/google-chrome-stable
 set $mod Mod4
 
@@ -17,8 +16,9 @@ font pango:monospace 8
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom -b
 exec --no-startup-id xbanish
-# exec --no-startup-id xgamma -rgamma 0.85 -ggamma 1.0 -bgamma 0.85
-exec --no-startup-id xrandr --output LVDS-1 --gamma 0.9:1.0:0.9 
+exec --no-startup-id xgamma -rgamma 1 -ggamma 0.9 -bgamma 0.55
+exec --no-startup-id ~/gitstuff/libvibrant/build/cli/vibrant-cli LVDS-1 1.5
+# exec --no-startup-id xrandr --output LVDS-1 --gamma 0.9:1.0:0.9 
 # exec --no-startup-id $terminal
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
@@ -191,9 +191,9 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3status
-#}
+# bar {
+       # status_command i3status
+# }
 
 
 
@@ -210,11 +210,9 @@ client.placeholder        #ea00d9 #091833 #0abdc6 #ea00d9 #ea00d9
 # KEYBINDS
 bindsym Print exec --no-startup-id scrot ~/Pictures/Screenshots/screenshot-%Y%m%d-%H%M%S.png && touch ~/Pictures && notify-send -t 2000 "saved screenshot"
 bindsym $mod+b exec --no-startup-id ~/.config/rofi/applets/bin/brightness.sh
-bindsym $mod+m exec rofimoji
 bindsym Control+Shift+Escape exec --no-startup-id $terminal -e btop
 bindsym $mod+o exec --no-startup-id obsidian
 bindsym Shift+Print exec --no-startup-id screenrec
-# bindsym $mod+z exec flatpak run $browser
 bindsym $mod+z exec $browser
 
 # RESOLUTION
