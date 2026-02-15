@@ -87,11 +87,7 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/local/bin/betterlockscreen' ]]; then
-			betterlockscreen -l 
-		elif [[ -x '/usr/bin/i3lock' ]]; then
-			i3lock
-		fi
+		/home/roel/.config/i3/scripts/lock.sh
         ;;
     $suspend)
 		run_cmd --suspend

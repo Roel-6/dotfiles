@@ -26,7 +26,7 @@ exec --no-startup-id ~/gitstuff/libvibrant/build/cli/vibrant-cli LVDS-1 1.5
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- betterlockscreen -l 
+exec --no-startup-id xss-lock --transfer-sleep-lock -- /home/roel/.config/i3/scripts/lock.sh 
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -92,11 +92,8 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
-bindsym $mod+c split h
-
-# split in vertical orientation
-bindsym $mod+v split v
+# Toggle split orientation
+bindsym $mod+v split toggle
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle

@@ -9,20 +9,19 @@ ln -sf ~/.cache/wal/gtk.css ~/.config/gtk-3.0/gtk.css
 ln -sf ~/.cache/wal/gtk.css ~/.config/gtk-4.0/gtk.css
 pkill dunst; setsid -f dunst
 
-# 1. Define the path to your qutebrowser executable
 QUTE_BIN="$HOME/qute-py/.venv/bin/python3 -m qutebrowser"
-
-# 2. Check if qutebrowser is running
 if pgrep -f "qutebrowser" > /dev/null; then
-    # 3. Use the running instance to source the new colors
     $QUTE_BIN ':config-source'
 fi
 
-# Refresh all running Neovim/LunarVim instances
 for server in /tmp/nvimsocket*; do
     [ -S "$server" ] && nvim --server "$server" --remote-send '<Esc>:colorscheme wal<CR>' &
 done
 
 sleep 0.5
-
 notify-send "Wallpaper changed"
+
+# updates lockscreen
+rm /tmp/screenlock.png
+# betterlockscreen -u `cat ~/.cache/wal/wal`
+notify-send "lockscreen has been updated"
