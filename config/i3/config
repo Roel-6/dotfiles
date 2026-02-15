@@ -247,12 +247,7 @@ bindsym $mod+Shift+w exec --no-startup-id ~/.config/i3/scripts/wallpapermenu
 exec --always dbus-update-activation-environment --systemd DISPLAY XAUTHORITY
 exec --always /usr/libexec/xdg-desktop-portal-gtk &
 
-# automatically opens nsxiv in floating mode
-for_window [class="nsxiv"] floating enable
-
 # GAPS
 gaps inner 5px
 gaps outer 10px
-# gaps top 0px
-# gaps left 30px
-# gaps right 10px
+gaps top 0px

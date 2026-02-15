@@ -1,0 +1,7 @@
+[colors]
+background = #CC{color0.strip}
+foreground = {color7}
+foreground-alt = {color7}
+primary = {color1}
+secondary = {color2}
+alert = {color3}

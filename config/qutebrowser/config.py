@@ -276,27 +276,27 @@ c.window.transparent = True
 #         }
 
 #c colors for the status bar on the bottom
-c.colors.statusbar.normal.bg = palette["backgroundalt"]
-c.colors.statusbar.command.bg = palette["backgroundalt"]
-c.colors.statusbar.command.fg = palette["foreground"]
-c.colors.statusbar.normal.fg = palette["color14"]
-c.colors.statusbar.passthrough.fg = palette["color14"]
-c.colors.statusbar.url.fg = palette["color2"]
-c.colors.statusbar.url.success.https.fg = palette["color2"]
-c.colors.statusbar.url.hover.fg = palette["color2"]
+# c.colors.statusbar.normal.bg = palette["backgroundalt"]
+# c.colors.statusbar.command.bg = palette["backgroundalt"]
+# c.colors.statusbar.command.fg = palette["foreground"]
+# c.colors.statusbar.normal.fg = palette["color14"]
+# c.colors.statusbar.passthrough.fg = palette["color14"]
+# c.colors.statusbar.url.fg = palette["color2"]
+# c.colors.statusbar.url.success.https.fg = palette["color2"]
+# c.colors.statusbar.url.hover.fg = palette["color2"]
 
-# colors for the tabs bar
-c.colors.tabs.even.bg = palette["color0"] # transparent tabs!!
-c.colors.tabs.odd.bg = palette["color0"]
-c.colors.tabs.bar.bg = palette["color0"]
-c.colors.tabs.even.fg = palette["color0"]
-c.colors.tabs.odd.fg = palette["color0"]
-c.colors.tabs.selected.even.bg = palette["foreground"]
-c.colors.tabs.selected.odd.bg = palette["foreground"]
-c.colors.tabs.selected.even.fg = palette["background"]
-c.colors.tabs.selected.odd.fg = palette["background"]
+# # colors for the tabs bar
+# c.colors.tabs.even.bg = palette["color0"] # transparent tabs!!
+# c.colors.tabs.odd.bg = palette["color0"]
+# c.colors.tabs.bar.bg = palette["color0"]
+# c.colors.tabs.even.fg = palette["color0"]
+# c.colors.tabs.odd.fg = palette["color0"]
+# c.colors.tabs.selected.even.bg = palette["foreground"]
+# c.colors.tabs.selected.odd.bg = palette["foreground"]
+# c.colors.tabs.selected.even.fg = palette["background"]
+# c.colors.tabs.selected.odd.fg = palette["background"]
 
-# colors for tab indicator
-c.colors.tabs.indicator.start = palette["color2"]
-c.colors.tabs.indicator.stop = palette["color5"]
-c.colors.tabs.indicator.error = palette["color1"]
+# # colors for tab indicator
+# c.colors.tabs.indicator.start = palette["color2"]
+# c.colors.tabs.indicator.stop = palette["color5"]
+# c.colors.tabs.indicator.error = palette["color1"]

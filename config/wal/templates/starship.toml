@@ -1,4 +1,6 @@
+
 format = """
+$os\
 $username\
 $directory\
 $git_branch\
@@ -18,11 +20,26 @@ $docker_context\
 $conda\
 $pixi\
 $time\
-$line_break
-$character """
+$line_break"""
+
+palette = 'pywal'
+
+[palettes.pywal]
+# Hex codes sourced from terminal-palette and image reference
+color1  = '{color1}'
+color2  = '{color2}'
+color3  = '{color3}'
+color4  = '{color4}'
+color5  = '{color5}'
+color6  = '{color6}'
+color7  = '{color7}'
+color8  = '{color8}'
+color9  = '{color9}'
+color10 = '{color10}'
 
 [os]
 disabled = false
+style = "bg:color_orange fg:color_fg0"
 
 [os.symbols]
 Ubuntu = "󰕈"
@@ -30,77 +47,96 @@ Linux = "󰌽"
 
 [username]
 show_always = true
+style_user = "bg:color_orange fg:color_fg0"
+style_root = "bg:color_orange fg:color_fg0"
 format = '[ $user ]($style)'
 
 [directory]
+style = "fg:color_bg3 bg:color_yellow"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
+style = "bg:color_aqua"
 format = '[[ $symbol $branch ](fg:color_bg3 bg:color_aqua)]($style)'
 
 [git_status]
+style = "bg:color_aqua"
 format = '[[($all_status$ahead_behind )](fg:color_bg3 bg:color_aqua)]($style)'
 
 [nodejs]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [c]
 symbol = " "
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [cpp]
 symbol = " "
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [rust]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [golang]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [php]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [java]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [kotlin]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [haskell]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [python]
 symbol = ""
+style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [docker_context]
 symbol = ""
+style = "bg:color_bg3"
 format = '[[ $symbol( $context) ](fg:color_fg0 bg:color_bg3)]($style)'
 
 [conda]
+style = "bg:color_bg3"
 format = '[[ $symbol( $environment) ](fg:color_fg0 bg:color_bg3)]($style)'
 
 [pixi]
+style = "bg:color_bg3"
 format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_bg3)]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
+style = "bg:color_bg1"
 format = '[[  $time ](fg:color_fg0 bg:color_bg1)]($style)'
 
 [line_break]
-disabled = false
+disabled = true
 
 [character]
 disabled = false

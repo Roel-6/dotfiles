@@ -1,7 +1,7 @@
 /* Pywal Color Bridge for adi1090x themes */
 
 * {
-    background:     {background};
+    background:     #{background.strip}CC;
     background-alt: {background};
     foreground:     {foreground};
     selected:       {color1};     

@@ -123,20 +123,21 @@ fi
 # I3config
 alias i3config='lvim ~/cp-dotfiles/config/i3/config'
 
-# alias for lvim lol
-export PATH="$HOME/.local/bin/lvim:$PATH"
-
 # alias for qutebrowser
 alias qutebrowser='~/qute-py/.venv/bin/python3 -m qutebrowser'
 
 # alias for mov-cli
 alias mov='source ~/mov-cli-env/bin/activate;mov-cli "$@"'
 
-# changing the default text editor to lvim
+# Exports
+export PATH="$HOME/.local/bin/lvim:$PATH"
 export EDITOR="lvim"
 export VISUAL="lvim"
+
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 
 export PATH="$HOME/zig-compiler/zig-x86_64-linux-0.15.2:$PATH"
 export PATH="$HOME/rofi/files/scripts:$PATH"
 
+# initializing starship
 eval "$(starship init bash)"
