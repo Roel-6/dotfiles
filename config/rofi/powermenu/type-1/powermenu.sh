@@ -62,14 +62,22 @@ run_cmd() {
 	selected="$(confirm_exit)"
 	if [[ "$selected" == "$yes" ]]; then
 		if [[ $1 == '--shutdown' ]]; then
+            paplay ~/.config/i3/sounds/seeya.ogg
+            sleep 0.5
 			systemctl poweroff
 		elif [[ $1 == '--reboot' ]]; then
+            paplay ~/.config/i3/sounds/seeya.ogg
+            sleep 0.5
 			systemctl reboot
 		elif [[ $1 == '--suspend' ]]; then
+            paplay ~/.config/i3/sounds/shutdownsound.opus
+            sleep 0.5
 			mpc -q pause
 			amixer set Master mute
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
+            paplay ~/.config/i3/sounds/seeya.ogg
+            sleep 0.5
 			i3-msg exit
 		fi
 	else

@@ -129,6 +129,9 @@ alias qutebrowser='~/qute-py/.venv/bin/python3 -m qutebrowser'
 # alias for mov-cli
 alias mov='source ~/mov-cli-env/bin/activate;mov-cli "$@"'
 
+# alias for openvpn
+alias vpnup='sudo openvpn --config $(find ~/ovpncert/proton -name "*.ovpn" | fzf --reverse --height 40% --border --prompt="Select VPN Server > ") --auth-user-pass ~/ovpncert/proton/.proton-creds'
+
 # Exports
 export PATH="$HOME/.local/bin/lvim:$PATH"
 export EDITOR="lvim"

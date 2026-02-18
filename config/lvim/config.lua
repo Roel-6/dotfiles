@@ -11,6 +11,11 @@ vim.opt.shiftwidth = 4 -- Size of an indent
 vim.opt.tabstop = 4    -- Number of spaces tabs count for
 vim.opt.softtabstop = 4
 vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldlevel = 99
+-- Quick keybind to refresh pywal colorscheme
+lvim.keys.normal_mode["<leader>pw"] = ":colorscheme pywal<cr>"
 
 lvim.plugins = {
   {

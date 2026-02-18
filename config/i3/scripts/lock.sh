@@ -7,9 +7,9 @@
 WAL=`cat ~/.cache/wal/wal`
 RESIZE="/tmp/screenlock.png"
 
-if [ ! -f "$RESIZE" ]; then
-    convert "$WAL" -resize 1366x768^ -gravity center -extent 1366x768 -fill "$color0" -colorize 65% "$RESIZE"
-fi
+# if [ ! -f "$RESIZE" ]; then
+#     convert "$WAL" -resize 1366x768^ -gravity center -extent 1366x768 -fill "$color0" -colorize 50% "$RESIZE"
+# fi
 
 # Lock with transparent background and pywal ring colors
 i3lock                              \
@@ -27,6 +27,20 @@ i3lock                              \
   --indicator                       \
   --ind-pos="150:680"               \
   --force-clock                     \
+  --time-font=Iosevka               \
   --time-color="$foreground"        \
-  --date-color="$foreground"        \
-  --time-pos="280:680"
+  --time-align=1                    \
+  --time-size=60                    \
+  --date-font=Iosevka               \
+  --date-color="$color5"            \
+  --date-align=1                    \
+  --date-size=30                    \
+  --time-pos="220:688"              \
+  --greeter-text="ᶠᶸᶜᵏᵧₒᵤ! nigga"   \
+  --greeter-font=Iosevka Nerd Font  \
+  --greeter-color="$color6"         \
+  --greeter-align=0                 \
+  --greeter-size=60                 \
+  --greeter-pos="300:150"
+
+

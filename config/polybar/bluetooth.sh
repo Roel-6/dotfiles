@@ -10,7 +10,7 @@ else
     # Check if any device is connected
     connected=$(bluetoothctl info | grep "Connected: yes" | wc -l)
     if [ "$connected" -gt 0 ]; then
-        echo "%{F#2196F3}Connected%{F-}" # Blue icon if connected
+        echo "%{F}Connected%{F-}" 
     else
         echo "None" # Standard icon if on but not connected
     fi

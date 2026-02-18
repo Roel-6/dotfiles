@@ -5,7 +5,7 @@
     address: "127.0.0.1:6600",
     password: None,
     // theme: Some("Default"),
-    theme: Some("Default"),
+    theme: Some("Nord"),
     // theme: Some("Catpuccin_Macchiato"),
     cache_dir: None,
     on_song_change: None,
@@ -135,24 +135,24 @@
                 direction: Horizontal,
                 panes: [
                     (
-                        size: "40%",
+                        size: "30%",
+                        pane: Pane(AlbumArt)
+                    ), 
+                    (
+                        size: "70%",
                         pane: Split(
                             direction: Vertical,
                             panes: [
                                 (
-                                    size: "3",
-                                    pane: Pane(Lyrics)
-                                ),
-                                (
                                     size: "100%",
-                                    pane: Pane(AlbumArt)
+                                    pane: Pane(Queue)
                                 ),
-                            ],
-                        ),
-                    ), 
-                    (
-                        size: "60%",
-                        pane: Pane(Queue)
+                                // (
+                                //     size: "50%",
+                                //     pane: Pane(Cava)
+                                // ),
+                            ]
+                        )
                     ),
                 ],
             ),
@@ -182,5 +182,25 @@
             pane: Pane(Search),
         ),
     ],
+    cava: (
+        framerate: 60,
+        autosens: true,
+        sensitivity: 100,
+        lower_cutoff_freq: 50,
+        higher_cutoff_freq: 10000,
+        input: (
+            method: Fifo,
+            source: "/tmp/mpd.fifo",
+            sample_rate: 44100,
+            channels: 2,
+            sample_bits: 16,
+        ),
+        smoothing: (
+            noise_reduction: 77,
+            monstercat: false,
+            waves: false,
+        ),
+        eq: []
+    ),
 )
 

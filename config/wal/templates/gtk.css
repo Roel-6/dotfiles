@@ -1,12 +1,226 @@
-@define-color bg_color {background};
-@define-color fg_color {foreground};
-@define-color accent_color {color4};
+/* Pywal GTK3 Template Bootstrap
+   Place this in ~/.config/wal/templates/
+*/
 
-* {
-    background-color: @bg_color;
-    color: @fg_color;
+/* 1. Define Pywal Variables for GTK */
+@define-color wal_bg {background};
+@define-color wal_fg {foreground};
+@define-color wal_accent {color4};
+@define-color wal_secondary {color2};
+@define-color wal_border {color8};
+
+
+/* 2. Global / Window Base */
+window, 
+.background,
+messagedialog {
+    background-color: @wal_bg;
+    color: @wal_fg;
 }
 
+/* 3. Buttons */
 button {
-    background-color: @accent_color;
+    background-image: none;
+    background-color: alpha(@wal_fg, 0.08); /* Slight tint for depth */
+    border: 1px solid alpha(@wal_fg, 0.15);
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: @wal_fg;
+}
+
+button:hover { 
+    background-color: alpha(@wal_fg, 0.15); 
+}
+
+button:active, 
+button:checked { 
+    background-color: @wal_accent; 
+    color: @wal_bg; 
+}
+
+button:disabled {
+    color: alpha(@wal_fg, 0.4);
+    background-color: alpha(@wal_fg, 0.03);
+}
+
+/* 4. Entries / Inputs */
+entry {
+    background-color: alpha(@wal_fg, 0.05);
+    border: 1px solid alpha(@wal_fg, 0.1);
+    border-radius: 2px;
+    color: @wal_fg;
+    padding: 4px;
+}
+
+entry:focus { 
+    border-color: @wal_accent; 
+}
+
+/* 5. Lists, Treeviews, and Rows (Crucial for File Managers) */
+treeview, 
+list,
+row {
+    background-color: @wal_bg;
+    color: @wal_fg;
+}
+
+row:selected,
+row:hover:selected {
+    background-color: @wal_accent;
+    color: @wal_bg;
+}
+
+row:hover {
+    background-color: alpha(@wal_accent, 0.2);
+}
+
+/* 6. Menus, Popovers, and Tooltips */
+menu, 
+menuitem,
+popover,
+tooltip {
+    background-color: @wal_bg;
+    border: 1px solid alpha(@wal_fg, 0.2);
+    color: @wal_fg;
+}
+
+menuitem:hover { 
+    background-color: @wal_accent; 
+    color: @wal_bg; 
+}
+
+/* 7. Scrollbars (Clean & Lightweight) */
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: alpha(@wal_fg, 0.2);
+    border-radius: 10px;
+    min-width: 6px;
+    min-height: 6px;
+    margin: 2px;
+}
+
+scrollbar slider:hover { 
+    background-color: @wal_accent; 
+}
+
+/* 8. Notebooks (Tabs) */
+notebook { 
+    background-color: @wal_bg; 
+    border: 1px solid alpha(@wal_fg, 0.1);
+}
+
+tab {
+    padding: 4px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+tab:checked { 
+    border-bottom-color: @wal_accent; 
+    background-color: alpha(@wal_fg, 0.05);
+}
+
+/* 9. Progressbars & Sliders */
+progressbar trough, 
+scale trough {
+    background-color: alpha(@wal_fg, 0.1);
+    border-radius: 4px;
+}
+
+progressbar progress, 
+scale highlight {
+    background-color: @wal_secondary;
+}
+
+/* 10. Header Bars (CSD) */
+headerbar {
+    background-color: alpha(@wal_bg, 0.95);
+    border-bottom: 1px solid alpha(@wal_fg, 0.1);
+    padding: 6px;
+}
+
+headerbar button {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* Target the main container and scrolled areas */
+scrolledwindow,
+viewport,
+grid {
+    background-color: @wal_bg;
+    color: @wal_fg;
+}
+
+/* Thunar Specifics & General Sidebars */
+.sidebar,
+.sidebar row,
+sidebartreeview,
+stack {
+    background-color: alpha(@wal_bg, 0.95); /* Or use @wal_bg */
+    color: @wal_fg;
+}
+
+/* The Toolbar (The grey bar with back/forward/path) */
+toolbar,
+.toolbar {
+    background-color: @wal_bg;
+    border-bottom: 1px solid alpha(@wal_fg, 0.1);
+    box-shadow: none;
+}
+
+/* Fixing the "Path Bar" / Location Bar */
+pathbar button {
+    background-color: transparent;
+    border: none;
+    color: @wal_fg;
+}
+
+pathbar button:checked {
+    color: @wal_accent;
+    font-weight: bold;
+}
+/* Target Thunar's main icon and list view areas */
+ThunarIconView, 
+ThunarStandardView, 
+ThunarTreeView,
+.view,
+iconview {
+    background-color: @wal_bg;
+    color: @wal_fg;
+}
+
+/* This fixes the 'scrolled' container that holds the icons */
+scrolledwindow viewport,
+scrolledwindow grid {
+    background-color: @wal_bg;
+}
+
+/* If the background is still stubborn, this 'undershoot' 
+   removes the shadow often seen at the edges of scrollable areas */
+undershoot.top, 
+undershoot.right, 
+undershoot.bottom, 
+undershoot.left { 
+    background-image: none; 
+}
+/* 11. Menubar (The 'File, Edit, View' strip) */
+menubar,
+.menubar {
+    background-color: @wal_bg;
+    color: @wal_fg;
+    border: none;
+    box-shadow: none;
+}
+
+/* Ensure the items inside the menubar also use the right colors */
+menubar > menuitem {
+    padding: 4px 8px;
+    background-color: transparent;
+}
+
+menubar > menuitem:hover {
+    background-color: @wal_accent;
+    color: @wal_bg;
 }

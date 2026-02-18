@@ -3,6 +3,7 @@
 xrdb -merge ~/.Xresources
 pidof st | xargs kill -s USR1
 ln -sf ~/.cache/wal/roficolors/pywal.rasi ~/.config/rofi/colors/pywal.rasi
+rm -rf ~/.config/dunst
 ln -sf ~/.cache/wal/dunst ~/.config/dunst
 ln -sf ~/.cache/wal/picom/shadow.conf ~/.config/picom/shadow.conf
 ln -sf ~/.cache/wal/gtk.css ~/.config/gtk-3.0/gtk.css
@@ -23,5 +24,13 @@ notify-send "Wallpaper changed"
 
 # updates lockscreen
 rm /tmp/screenlock.png
+
+. "${HOME}/.cache/wal/colors.sh"
+WAL=`cat ~/.cache/wal/wal`
+RESIZE="/tmp/screenlock.png"
+
+if [ ! -f "$RESIZE" ]; then
+    convert "$WAL" -resize 1366x768^ -gravity center -extent 1366x768 -fill "$color0" -colorize 50% "$RESIZE"
+fi
 # betterlockscreen -u `cat ~/.cache/wal/wal`
 notify-send "lockscreen has been updated"

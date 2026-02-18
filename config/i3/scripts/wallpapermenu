@@ -3,7 +3,7 @@
 # slightly scuffed wallpaper picker menu for use with pywal - uses nsxiv if installed, otherwise uses dmenu
 
 FOLDER=~/Pictures/wallpaper # wallpaper folder
-SCRIPT=~/.config/i3/scripts/script/walrefresh # script to run after wal for refreshing programs, etc.
+SCRIPT=~/.config/i3/scripts/walrefresh # script to run after wal for refreshing programs, etc.
 
 
 menu () {
