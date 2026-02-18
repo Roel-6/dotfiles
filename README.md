@@ -1,6 +1,6 @@
 # My Simple I3wm Rice
 ## Overview
-A really clean and simple looking rice, uses pywal16 as its color generator and picomm to handle animations and transparency
+A really clean and simple looking rice, uses pywal16 as its color generator and picom to handle animations and transparency
 
 ## Screenshots
 ![](screenshots/green.png)
@@ -13,8 +13,9 @@ A really clean and simple looking rice, uses pywal16 as its color generator and 
 * Lightweight and fast
 * Full pywal16 integrations with custom templates
 * Custom wallpaper picker script using nxsiv 
-* Easy to configure
+* Sleek window animations
 * Keyboard centric navigations (refer to 13 config for keybinds)
+* Easy to configure
 
 ## Pre-requisites
 * I3
@@ -23,4 +24,5 @@ A really clean and simple looking rice, uses pywal16 as its color generator and 
 * Pywal16
 * Polybar
 * Rofi
+* Dunst
 
