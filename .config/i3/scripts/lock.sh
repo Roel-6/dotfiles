@@ -13,7 +13,7 @@ HOUR_INT=$((10#$HOUR))
 USER=$(whoami)
 
 if [ "$HOUR_INT" -ge 0 ] && [ "$HOUR_INT" -lt 5 ]; then
-    MSG="Working late, aren't we, $USER?"
+    MSG="Working late, aren't we $USER?"
 elif [ "$HOUR_INT" -ge 5 ] && [ "$HOUR_INT" -lt 12 ]; then
     MSG="Good morning, $USER!"
 elif [ "$HOUR_INT" -ge 12 ] && [ "$HOUR_INT" -lt 18 ]; then
