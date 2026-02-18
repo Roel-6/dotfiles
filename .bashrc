@@ -121,7 +121,7 @@ fi
 . "$HOME/.cargo/env"
 
 # I3config
-alias i3config='lvim ~/cp-dotfiles/config/i3/config'
+alias i3config='lvim ~/cp-dotfiles/.config/i3/config'
 
 # alias for qutebrowser
 alias qutebrowser='~/qute-py/.venv/bin/python3 -m qutebrowser'
