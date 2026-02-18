@@ -9,12 +9,13 @@ A really clean and simple looking rice, uses pywal16 as its color generator and 
 ![](screenshots/kaneki.png)
 ![](screenshots/launcher.png)
 
-## Features
+## Things i like about it
 * Lightweight and fast
 * Full pywal16 integrations with custom templates
 * Custom wallpaper picker script using nxsiv 
 * Sleek window animations
-* Keyboard centric navigations (refer to 13 config for keybinds)
+* Custom lockscreen with i3lock-color
+* Keyboard centric navigations
 * Easy to configure
 
 ## Pre-requisites
@@ -24,5 +25,6 @@ A really clean and simple looking rice, uses pywal16 as its color generator and 
 * Pywal16
 * Polybar
 * Rofi
+* i3lock-color
 * Dunst
 

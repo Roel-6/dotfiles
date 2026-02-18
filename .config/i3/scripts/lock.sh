@@ -7,9 +7,20 @@
 WAL=`cat ~/.cache/wal/wal`
 RESIZE="/tmp/screenlock.png"
 
-# if [ ! -f "$RESIZE" ]; then
-#     convert "$WAL" -resize 1366x768^ -gravity center -extent 1366x768 -fill "$color0" -colorize 50% "$RESIZE"
-# fi
+# Get the current hour and username
+HOUR=$(date +%H)
+HOUR_INT=$((10#$HOUR))
+USER=$(whoami)
+
+if [ "$HOUR_INT" -ge 0 ] && [ "$HOUR_INT" -lt 5 ]; then
+    MSG="Working late, aren't we, $USER?"
+elif [ "$HOUR_INT" -ge 5 ] && [ "$HOUR_INT" -lt 12 ]; then
+    MSG="Good morning, $USER!"
+elif [ "$HOUR_INT" -ge 12 ] && [ "$HOUR_INT" -lt 18 ]; then
+    MSG="Good afternoon, $USER!"
+else
+    MSG="Good evening, $USER!"
+fi
 
 # Lock with transparent background and pywal ring colors
 i3lock                              \
@@ -36,11 +47,11 @@ i3lock                              \
   --date-align=1                    \
   --date-size=30                    \
   --time-pos="220:688"              \
-  --greeter-text="ᶠᶸᶜᵏᵧₒᵤ! nigga"   \
+  --greeter-text="$MSG"             \
   --greeter-font=Iosevka Nerd Font  \
   --greeter-color="$color6"         \
-  --greeter-align=0                 \
+  --greeter-align=1                 \
   --greeter-size=60                 \
-  --greeter-pos="300:150"
+  --greeter-pos="100:150"
 
 
