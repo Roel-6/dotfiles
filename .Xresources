@@ -1,0 +1,5 @@
+
+Xcursor.theme: breezelight
+Xcursor.size: 16
+
+#include ".cache/wal/colors.Xresources"

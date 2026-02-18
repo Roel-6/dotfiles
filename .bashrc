@@ -136,9 +136,7 @@ alias vpnup='sudo openvpn --config $(find ~/ovpncert/proton -name "*.ovpn" | fzf
 export PATH="$HOME/.local/bin/lvim:$PATH"
 export EDITOR="lvim"
 export VISUAL="lvim"
-
 export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
-
 export PATH="$HOME/zig-compiler/zig-x86_64-linux-0.15.2:$PATH"
 export PATH="$HOME/rofi/files/scripts:$PATH"
 
